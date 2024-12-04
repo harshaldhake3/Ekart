@@ -31,7 +31,7 @@ spec:
                 topologyKey: "kubernetes.io/hostname"
       containers:
         - name: ekart
-          image: adijaiswal/ekart:latest
+          image: harshaladmin/ekart:latest
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8070
